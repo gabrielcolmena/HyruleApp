@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BF70B36297A214500B7263C /* HyruleCompendiumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B35297A214500B7263C /* HyruleCompendiumApp.swift */; };
+		2BF70B38297A214500B7263C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B37297A214500B7263C /* ContentView.swift */; };
+		2BF70B3A297A214600B7263C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF70B39297A214600B7263C /* Assets.xcassets */; };
+		2BF70B3D297A214600B7263C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF70B3C297A214600B7263C /* Preview Assets.xcassets */; };
+		2BF70B3F297A214600B7263C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B3E297A214600B7263C /* Persistence.swift */; };
+		2BF70B42297A214600B7263C /* HyruleCompendium.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B40297A214600B7263C /* HyruleCompendium.xcdatamodeld */; };
+		2BF70B4C297A214700B7263C /* HyruleCompendiumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B4B297A214700B7263C /* HyruleCompendiumTests.swift */; };
+		2BF70B56297A214700B7263C /* HyruleCompendiumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B55297A214700B7263C /* HyruleCompendiumUITests.swift */; };
+		2BF70B58297A214700B7263C /* HyruleCompendiumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B57297A214700B7263C /* HyruleCompendiumUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BF70B48297A214700B7263C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BF70B2A297A214500B7263C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BF70B31297A214500B7263C;
+			remoteInfo = HyruleCompendium;
+		};
+		2BF70B52297A214700B7263C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BF70B2A297A214500B7263C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BF70B31297A214500B7263C;
+			remoteInfo = HyruleCompendium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BF70B32297A214500B7263C /* HyruleCompendium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyruleCompendium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF70B35297A214500B7263C /* HyruleCompendiumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyruleCompendiumApp.swift; sourceTree = "<group>"; };
+		2BF70B37297A214500B7263C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2BF70B39297A214600B7263C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BF70B3C297A214600B7263C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BF70B3E297A214600B7263C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		2BF70B41297A214600B7263C /* HyruleCompendium.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HyruleCompendium.xcdatamodel; sourceTree = "<group>"; };
+		2BF70B47297A214700B7263C /* HyruleCompendiumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyruleCompendiumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF70B4B297A214700B7263C /* HyruleCompendiumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyruleCompendiumTests.swift; sourceTree = "<group>"; };
+		2BF70B51297A214700B7263C /* HyruleCompendiumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyruleCompendiumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF70B55297A214700B7263C /* HyruleCompendiumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyruleCompendiumUITests.swift; sourceTree = "<group>"; };
+		2BF70B57297A214700B7263C /* HyruleCompendiumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyruleCompendiumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BF70B2F297A214500B7263C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF70B44297A214700B7263C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF70B4E297A214700B7263C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BF70B29297A214500B7263C = {
+			isa = PBXGroup;
+			children = (
+				2BF70B34297A214500B7263C /* HyruleCompendium */,
+				2BF70B4A297A214700B7263C /* HyruleCompendiumTests */,
+				2BF70B54297A214700B7263C /* HyruleCompendiumUITests */,
+				2BF70B33297A214500B7263C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BF70B33297A214500B7263C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BF70B32297A214500B7263C /* HyruleCompendium.app */,
+				2BF70B47297A214700B7263C /* HyruleCompendiumTests.xctest */,
+				2BF70B51297A214700B7263C /* HyruleCompendiumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BF70B34297A214500B7263C /* HyruleCompendium */ = {
+			isa = PBXGroup;
+			children = (
+				2BF70B35297A214500B7263C /* HyruleCompendiumApp.swift */,
+				2BF70B37297A214500B7263C /* ContentView.swift */,
+				2BF70B39297A214600B7263C /* Assets.xcassets */,
+				2BF70B3E297A214600B7263C /* Persistence.swift */,
+				2BF70B40297A214600B7263C /* HyruleCompendium.xcdatamodeld */,
+				2BF70B3B297A214600B7263C /* Preview Content */,
+			);
+			path = HyruleCompendium;
+			sourceTree = "<group>";
+		};
+		2BF70B3B297A214600B7263C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2BF70B3C297A214600B7263C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BF70B4A297A214700B7263C /* HyruleCompendiumTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BF70B4B297A214700B7263C /* HyruleCompendiumTests.swift */,
+			);
+			path = HyruleCompendiumTests;
+			sourceTree = "<group>";
+		};
+		2BF70B54297A214700B7263C /* HyruleCompendiumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BF70B55297A214700B7263C /* HyruleCompendiumUITests.swift */,
+				2BF70B57297A214700B7263C /* HyruleCompendiumUITestsLaunchTests.swift */,
+			);
+			path = HyruleCompendiumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BF70B31297A214500B7263C /* HyruleCompendium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF70B5B297A214700B7263C /* Build configuration list for PBXNativeTarget "HyruleCompendium" */;
+			buildPhases = (
+				2BF70B2E297A214500B7263C /* Sources */,
+				2BF70B2F297A214500B7263C /* Frameworks */,
+				2BF70B30297A214500B7263C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HyruleCompendium;
+			productName = HyruleCompendium;
+			productReference = 2BF70B32297A214500B7263C /* HyruleCompendium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BF70B46297A214700B7263C /* HyruleCompendiumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF70B5E297A214700B7263C /* Build configuration list for PBXNativeTarget "HyruleCompendiumTests" */;
+			buildPhases = (
+				2BF70B43297A214700B7263C /* Sources */,
+				2BF70B44297A214700B7263C /* Frameworks */,
+				2BF70B45297A214700B7263C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BF70B49297A214700B7263C /* PBXTargetDependency */,
+			);
+			name = HyruleCompendiumTests;
+			productName = HyruleCompendiumTests;
+			productReference = 2BF70B47297A214700B7263C /* HyruleCompendiumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BF70B50297A214700B7263C /* HyruleCompendiumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF70B61297A214700B7263C /* Build configuration list for PBXNativeTarget "HyruleCompendiumUITests" */;
+			buildPhases = (
+				2BF70B4D297A214700B7263C /* Sources */,
+				2BF70B4E297A214700B7263C /* Frameworks */,
+				2BF70B4F297A214700B7263C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BF70B53297A214700B7263C /* PBXTargetDependency */,
+			);
+			name = HyruleCompendiumUITests;
+			productName = HyruleCompendiumUITests;
+			productReference = 2BF70B51297A214700B7263C /* HyruleCompendiumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BF70B2A297A214500B7263C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2BF70B31297A214500B7263C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					2BF70B46297A214700B7263C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2BF70B31297A214500B7263C;
+					};
+					2BF70B50297A214700B7263C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2BF70B31297A214500B7263C;
+					};
+				};
+			};
+			buildConfigurationList = 2BF70B2D297A214500B7263C /* Build configuration list for PBXProject "HyruleCompendium" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BF70B29297A214500B7263C;
+			productRefGroup = 2BF70B33297A214500B7263C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BF70B31297A214500B7263C /* HyruleCompendium */,
+				2BF70B46297A214700B7263C /* HyruleCompendiumTests */,
+				2BF70B50297A214700B7263C /* HyruleCompendiumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BF70B30297A214500B7263C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF70B3D297A214600B7263C /* Preview Assets.xcassets in Resources */,
+				2BF70B3A297A214600B7263C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF70B45297A214700B7263C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF70B4F297A214700B7263C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BF70B2E297A214500B7263C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF70B3F297A214600B7263C /* Persistence.swift in Sources */,
+				2BF70B38297A214500B7263C /* ContentView.swift in Sources */,
+				2BF70B36297A214500B7263C /* HyruleCompendiumApp.swift in Sources */,
+				2BF70B42297A214600B7263C /* HyruleCompendium.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF70B43297A214700B7263C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF70B4C297A214700B7263C /* HyruleCompendiumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BF70B4D297A214700B7263C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF70B58297A214700B7263C /* HyruleCompendiumUITestsLaunchTests.swift in Sources */,
+				2BF70B56297A214700B7263C /* HyruleCompendiumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BF70B49297A214700B7263C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BF70B31297A214500B7263C /* HyruleCompendium */;
+			targetProxy = 2BF70B48297A214700B7263C /* PBXContainerItemProxy */;
+		};
+		2BF70B53297A214700B7263C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BF70B31297A214500B7263C /* HyruleCompendium */;
+			targetProxy = 2BF70B52297A214700B7263C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BF70B59297A214700B7263C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BF70B5A297A214700B7263C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BF70B5C297A214700B7263C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HyruleCompendium/Preview Content\"";
+				DEVELOPMENT_TEAM = 36868B6YG7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabrielcolmena.HyruleCompendium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BF70B5D297A214700B7263C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HyruleCompendium/Preview Content\"";
+				DEVELOPMENT_TEAM = 36868B6YG7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabrielcolmena.HyruleCompendium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BF70B5F297A214700B7263C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36868B6YG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabrielcolmena.HyruleCompendiumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyruleCompendium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HyruleCompendium";
+			};
+			name = Debug;
+		};
+		2BF70B60297A214700B7263C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36868B6YG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabrielcolmena.HyruleCompendiumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HyruleCompendium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HyruleCompendium";
+			};
+			name = Release;
+		};
+		2BF70B62297A214700B7263C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36868B6YG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabrielcolmena.HyruleCompendiumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HyruleCompendium;
+			};
+			name = Debug;
+		};
+		2BF70B63297A214700B7263C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 36868B6YG7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabrielcolmena.HyruleCompendiumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HyruleCompendium;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BF70B2D297A214500B7263C /* Build configuration list for PBXProject "HyruleCompendium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF70B59297A214700B7263C /* Debug */,
+				2BF70B5A297A214700B7263C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BF70B5B297A214700B7263C /* Build configuration list for PBXNativeTarget "HyruleCompendium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF70B5C297A214700B7263C /* Debug */,
+				2BF70B5D297A214700B7263C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BF70B5E297A214700B7263C /* Build configuration list for PBXNativeTarget "HyruleCompendiumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF70B5F297A214700B7263C /* Debug */,
+				2BF70B60297A214700B7263C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BF70B61297A214700B7263C /* Build configuration list for PBXNativeTarget "HyruleCompendiumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF70B62297A214700B7263C /* Debug */,
+				2BF70B63297A214700B7263C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2BF70B40297A214600B7263C /* HyruleCompendium.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2BF70B41297A214600B7263C /* HyruleCompendium.xcdatamodel */,
+			);
+			currentVersion = 2BF70B41297A214600B7263C /* HyruleCompendium.xcdatamodel */;
+			path = HyruleCompendium.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2BF70B2A297A214500B7263C /* Project object */;
+}
