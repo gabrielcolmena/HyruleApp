@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B19B38D2980435800E6AF56 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19B38C2980435800E6AF56 /* DetailViewModel.swift */; };
+		2B19B390298043CD00E6AF56 /* ListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19B38F298043CD00E6AF56 /* ListItemViewModel.swift */; };
+		2B19B3922980457500E6AF56 /* All.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19B3912980457500E6AF56 /* All.swift */; };
+		2B19B394298050A500E6AF56 /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19B393298050A500E6AF56 /* Equipment.swift */; };
+		2B19B3962980D57D00E6AF56 /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19B3952980D57D00E6AF56 /* Material.swift */; };
+		2B566638297DDB3000BD263E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B566637297DDB3000BD263E /* DataManager.swift */; };
+		2B56663A297E272200BD263E /* DataMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B566639297E272200BD263E /* DataMapper.swift */; };
+		2B56663D297E322700BD263E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B56663C297E322700BD263E /* SettingsView.swift */; };
+		2B566640297ED60A00BD263E /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B56663F297ED60A00BD263E /* Toast.swift */; };
+		2B566643297ED69D00BD263E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B566642297ED69D00BD263E /* Theme.swift */; };
+		2B566645297EDE0900BD263E /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B566644297EDE0900BD263E /* BackgroundView.swift */; };
+		2B566649297F319F00BD263E /* SkeletonLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B566648297F319F00BD263E /* SkeletonLoaderView.swift */; };
+		2B56664B297F44AF00BD263E /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B56664A297F44AE00BD263E /* Symbols.swift */; };
+		2B56664D297F457900BD263E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B56664C297F457900BD263E /* Localizable.strings */; };
+		2B56664F297F47BF00BD263E /* Localizables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B56664E297F47BF00BD263E /* Localizables.swift */; };
+		2B566651297F555500BD263E /* View+Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B566650297F555500BD263E /* View+Toast.swift */; };
+		2B566654297F6D2000BD263E /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B566653297F6D2000BD263E /* SettingsViewModel.swift */; };
 		2BF70B36297A214500B7263C /* HyruleCompendiumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B35297A214500B7263C /* HyruleCompendiumApp.swift */; };
-		2BF70B38297A214500B7263C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B37297A214500B7263C /* ContentView.swift */; };
 		2BF70B3A297A214600B7263C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF70B39297A214600B7263C /* Assets.xcassets */; };
 		2BF70B3D297A214600B7263C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF70B3C297A214600B7263C /* Preview Assets.xcassets */; };
-		2BF70B3F297A214600B7263C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B3E297A214600B7263C /* Persistence.swift */; };
 		2BF70B42297A214600B7263C /* HyruleCompendium.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B40297A214600B7263C /* HyruleCompendium.xcdatamodeld */; };
 		2BF70B4C297A214700B7263C /* HyruleCompendiumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B4B297A214700B7263C /* HyruleCompendiumTests.swift */; };
 		2BF70B56297A214700B7263C /* HyruleCompendiumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B55297A214700B7263C /* HyruleCompendiumUITests.swift */; };
 		2BF70B58297A214700B7263C /* HyruleCompendiumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B57297A214700B7263C /* HyruleCompendiumUITestsLaunchTests.swift */; };
+		2BF70B65297A2BF200B7263C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B64297A2BF200B7263C /* ListView.swift */; };
+		2BF70B69297A2C0E00B7263C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B68297A2C0E00B7263C /* DetailView.swift */; };
+		2BF70B6B297A2C6100B7263C /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B6A297A2C6100B7263C /* ListViewModel.swift */; };
+		2BF70B6F297A2C8600B7263C /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B6E297A2C8600B7263C /* Monster.swift */; };
+		2BF70B72297A3B6700B7263C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B71297A3B6700B7263C /* NetworkManager.swift */; };
+		2BF70B74297A3B8D00B7263C /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B73297A3B8D00B7263C /* Endpoints.swift */; };
+		2BF70B76297B5D9C00B7263C /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B75297B5D9C00B7263C /* ListItemView.swift */; };
+		2BF70B7C297CA31B00B7263C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B7B297CA31B00B7263C /* CoreDataManager.swift */; };
+		2BF70B7E297CA44400B7263C /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B7D297CA44400B7263C /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,18 +60,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B19B38C2980435800E6AF56 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		2B19B38F298043CD00E6AF56 /* ListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemViewModel.swift; sourceTree = "<group>"; };
+		2B19B3912980457500E6AF56 /* All.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = All.swift; sourceTree = "<group>"; };
+		2B19B393298050A500E6AF56 /* Equipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment.swift; sourceTree = "<group>"; };
+		2B19B3952980D57D00E6AF56 /* Material.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Material.swift; sourceTree = "<group>"; };
+		2B566637297DDB3000BD263E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		2B566639297E272200BD263E /* DataMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMapper.swift; sourceTree = "<group>"; };
+		2B56663C297E322700BD263E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2B56663F297ED60A00BD263E /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		2B566642297ED69D00BD263E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		2B566644297EDE0900BD263E /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		2B566648297F319F00BD263E /* SkeletonLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonLoaderView.swift; sourceTree = "<group>"; };
+		2B56664A297F44AE00BD263E /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
+		2B56664C297F457900BD263E /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		2B56664E297F47BF00BD263E /* Localizables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizables.swift; sourceTree = "<group>"; };
+		2B566650297F555500BD263E /* View+Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Toast.swift"; sourceTree = "<group>"; };
+		2B566653297F6D2000BD263E /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		2BF70B32297A214500B7263C /* HyruleCompendium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyruleCompendium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF70B35297A214500B7263C /* HyruleCompendiumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyruleCompendiumApp.swift; sourceTree = "<group>"; };
-		2BF70B37297A214500B7263C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2BF70B39297A214600B7263C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BF70B3C297A214600B7263C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2BF70B3E297A214600B7263C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		2BF70B41297A214600B7263C /* HyruleCompendium.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HyruleCompendium.xcdatamodel; sourceTree = "<group>"; };
 		2BF70B47297A214700B7263C /* HyruleCompendiumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyruleCompendiumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF70B4B297A214700B7263C /* HyruleCompendiumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyruleCompendiumTests.swift; sourceTree = "<group>"; };
 		2BF70B51297A214700B7263C /* HyruleCompendiumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyruleCompendiumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF70B55297A214700B7263C /* HyruleCompendiumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyruleCompendiumUITests.swift; sourceTree = "<group>"; };
 		2BF70B57297A214700B7263C /* HyruleCompendiumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyruleCompendiumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2BF70B64297A2BF200B7263C /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		2BF70B68297A2C0E00B7263C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2BF70B6A297A2C6100B7263C /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		2BF70B6E297A2C8600B7263C /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		2BF70B71297A3B6700B7263C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2BF70B73297A3B8D00B7263C /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		2BF70B75297B5D9C00B7263C /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		2BF70B7B297CA31B00B7263C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		2BF70B7D297CA44400B7263C /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +123,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B19B38E298043B800E6AF56 /* ListItem */ = {
+			isa = PBXGroup;
+			children = (
+				2BF70B75297B5D9C00B7263C /* ListItemView.swift */,
+				2B19B38F298043CD00E6AF56 /* ListItemViewModel.swift */,
+			);
+			path = ListItem;
+			sourceTree = "<group>";
+		};
+		2B56663B297E321700BD263E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2B56663C297E322700BD263E /* SettingsView.swift */,
+				2B566653297F6D2000BD263E /* SettingsViewModel.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		2B56663E297ED5F600BD263E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B56663F297ED60A00BD263E /* Toast.swift */,
+				2B566644297EDE0900BD263E /* BackgroundView.swift */,
+				2B566648297F319F00BD263E /* SkeletonLoaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2B566641297ED69300BD263E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B566642297ED69D00BD263E /* Theme.swift */,
+				2B56664A297F44AE00BD263E /* Symbols.swift */,
+				2B56664C297F457900BD263E /* Localizable.strings */,
+				2B56664E297F47BF00BD263E /* Localizables.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2B566652297F555B00BD263E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2B566650297F555500BD263E /* View+Toast.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		2BF70B29297A214500B7263C = {
 			isa = PBXGroup;
 			children = (
@@ -98,10 +193,14 @@
 		2BF70B34297A214500B7263C /* HyruleCompendium */ = {
 			isa = PBXGroup;
 			children = (
+				2BF70B6C297A2C7600B7263C /* Common */,
+				2BF70B67297A2C0100B7263C /* Detail */,
+				2BF70B66297A2BFC00B7263C /* List */,
+				2B56663B297E321700BD263E /* Settings */,
+				2B566652297F555B00BD263E /* Extensions */,
+				2B566641297ED69300BD263E /* Resources */,
 				2BF70B35297A214500B7263C /* HyruleCompendiumApp.swift */,
-				2BF70B37297A214500B7263C /* ContentView.swift */,
 				2BF70B39297A214600B7263C /* Assets.xcassets */,
-				2BF70B3E297A214600B7263C /* Persistence.swift */,
 				2BF70B40297A214600B7263C /* HyruleCompendium.xcdatamodeld */,
 				2BF70B3B297A214600B7263C /* Preview Content */,
 			);
@@ -131,6 +230,75 @@
 				2BF70B57297A214700B7263C /* HyruleCompendiumUITestsLaunchTests.swift */,
 			);
 			path = HyruleCompendiumUITests;
+			sourceTree = "<group>";
+		};
+		2BF70B66297A2BFC00B7263C /* List */ = {
+			isa = PBXGroup;
+			children = (
+				2B19B38E298043B800E6AF56 /* ListItem */,
+				2BF70B64297A2BF200B7263C /* ListView.swift */,
+				2BF70B6A297A2C6100B7263C /* ListViewModel.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		2BF70B67297A2C0100B7263C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				2BF70B68297A2C0E00B7263C /* DetailView.swift */,
+				2B19B38C2980435800E6AF56 /* DetailViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		2BF70B6C297A2C7600B7263C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2B56663E297ED5F600BD263E /* Views */,
+				2BF70B7A297CA30F00B7263C /* Data */,
+				2BF70B6D297A2C7A00B7263C /* Models */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2BF70B6D297A2C7A00B7263C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B19B3912980457500E6AF56 /* All.swift */,
+				2BF70B6E297A2C8600B7263C /* Monster.swift */,
+				2BF70B7D297CA44400B7263C /* Response.swift */,
+				2B19B393298050A500E6AF56 /* Equipment.swift */,
+				2B19B3952980D57D00E6AF56 /* Material.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2BF70B7A297CA30F00B7263C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2BF70B73297A3B8D00B7263C /* Endpoints.swift */,
+				2BF70B80297DDADE00B7263C /* Remote */,
+				2BF70B7F297DDAD900B7263C /* Local */,
+				2B566637297DDB3000BD263E /* DataManager.swift */,
+				2B566639297E272200BD263E /* DataMapper.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2BF70B7F297DDAD900B7263C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				2BF70B7B297CA31B00B7263C /* CoreDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		2BF70B80297DDADE00B7263C /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				2BF70B71297A3B6700B7263C /* NetworkManager.swift */,
+			);
+			path = Remote;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +406,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BF70B3D297A214600B7263C /* Preview Assets.xcassets in Resources */,
+				2B56664D297F457900BD263E /* Localizable.strings in Resources */,
 				2BF70B3A297A214600B7263C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,10 +432,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BF70B3F297A214600B7263C /* Persistence.swift in Sources */,
-				2BF70B38297A214500B7263C /* ContentView.swift in Sources */,
+				2B56663A297E272200BD263E /* DataMapper.swift in Sources */,
+				2B19B390298043CD00E6AF56 /* ListItemViewModel.swift in Sources */,
+				2BF70B69297A2C0E00B7263C /* DetailView.swift in Sources */,
+				2BF70B6B297A2C6100B7263C /* ListViewModel.swift in Sources */,
+				2BF70B74297A3B8D00B7263C /* Endpoints.swift in Sources */,
+				2BF70B7E297CA44400B7263C /* Response.swift in Sources */,
+				2B19B394298050A500E6AF56 /* Equipment.swift in Sources */,
+				2BF70B6F297A2C8600B7263C /* Monster.swift in Sources */,
+				2BF70B76297B5D9C00B7263C /* ListItemView.swift in Sources */,
+				2B566645297EDE0900BD263E /* BackgroundView.swift in Sources */,
+				2B566640297ED60A00BD263E /* Toast.swift in Sources */,
+				2B56664B297F44AF00BD263E /* Symbols.swift in Sources */,
+				2B56664F297F47BF00BD263E /* Localizables.swift in Sources */,
+				2B19B38D2980435800E6AF56 /* DetailViewModel.swift in Sources */,
+				2B19B3922980457500E6AF56 /* All.swift in Sources */,
+				2B19B3962980D57D00E6AF56 /* Material.swift in Sources */,
+				2B56663D297E322700BD263E /* SettingsView.swift in Sources */,
+				2B566643297ED69D00BD263E /* Theme.swift in Sources */,
+				2BF70B65297A2BF200B7263C /* ListView.swift in Sources */,
+				2B566649297F319F00BD263E /* SkeletonLoaderView.swift in Sources */,
+				2B566651297F555500BD263E /* View+Toast.swift in Sources */,
+				2BF70B72297A3B6700B7263C /* NetworkManager.swift in Sources */,
 				2BF70B36297A214500B7263C /* HyruleCompendiumApp.swift in Sources */,
 				2BF70B42297A214600B7263C /* HyruleCompendium.xcdatamodeld in Sources */,
+				2B566654297F6D2000BD263E /* SettingsViewModel.swift in Sources */,
+				2B566638297DDB3000BD263E /* DataManager.swift in Sources */,
+				2BF70B7C297CA31B00B7263C /* CoreDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +620,14 @@
 				DEVELOPMENT_TEAM = 36868B6YG7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hyruleapp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,11 +652,14 @@
 				DEVELOPMENT_TEAM = 36868B6YG7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hyruleapp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

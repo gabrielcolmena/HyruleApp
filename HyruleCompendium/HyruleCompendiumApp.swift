@@ -9,12 +9,12 @@ import SwiftUI
 
 @main
 struct HyruleCompendiumApp: App {
-    let persistenceController = PersistenceController.shared
-
+    
+    let dataManager = DataManager(coreDataManager: CoreDataManager(), networkManager: NetworkManager())
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            ListView(dataManager: dataManager)
         }
     }
 }

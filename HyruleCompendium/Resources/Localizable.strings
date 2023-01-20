@@ -1,0 +1,40 @@
+/* 
+  Localizable.strings
+  HyruleCompendium
+
+  Created by Gabriel Colmenares on 23/01/23.
+  
+*/
+
+// MARK: - App Name
+"APP_NAME" = "Hyruleapp";
+
+// MARK: - Errors
+"UNKNOWN_ERROR" = "Unknown error occurred";
+"INFO" = "Info";
+"WARNING" = "Warning";
+"SUCCESS" = "Success";
+"ERROR" = "Error";
+"INVALID_URL" = "URL isn't valid";
+"INVALID_STATUS_CODE" = "Status code falls into the wrong range";
+"INVALID_DATA" = "Response data is invalid";
+"FILED_TO_DECODE" = "Failed to decode";
+"INVALID_CONTAINER_NAME" = "Error reading DB";
+"INVALID_DATA_MODEL" = "Couldn't fetch DataModel";
+"REMOVE_ALL_ERROR" = "There was an error removing entities from DB";
+
+// MARK: - ListView
+"MONSTERS_TITLE" = "Monsters";
+"EQUIPMENT_TITLE" = "Equipment";
+"MATERIALS_TITLE" = "Materials";
+"NO_CONTENT_AVAILABLE" = "No content available";
+
+// MARK: - DetailView
+"DROPS_TITLE" = "Drops";
+"COMMON_PLACES_TITLE" = "Common places";
+"COOKING_EFFECT_TITLE" = "Cooking effect";
+
+//MARK: - Settings
+"DATA_TITLE" = "Data";
+"REMOVE_ALL_SUCCESS" = "All persisted data will be removed once you launch again the app or refresh the main listView";
+"REMOVE_ALL_DATA" = "Remove all persisted data";
