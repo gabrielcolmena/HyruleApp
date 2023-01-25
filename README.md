@@ -12,6 +12,7 @@ Demo app based on [Hyrule Compendium API](https://gadhagod.github.io/Hyrule-Comp
 - **Multi-language** support
 - **Dark-mode** support
 - **Skeleton View** loader
+- `Horizontal Scrolling list` on Detail view 
 - `SwiftUI` + `Combine`
 - [`Unit`](https://github.com/gabrielcolmena/HyruleApp/tree/main/HyruleCompendiumTests) and [`UI`](https://github.com/gabrielcolmena/HyruleApp/tree/main/HyruleCompendiumUITests) tests coverage
 - Settings view to remove persisted data
