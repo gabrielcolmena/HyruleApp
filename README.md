@@ -23,3 +23,6 @@ MVVM (using SwiftUI)
 ## Data Persistence
 Core Data
 
+## Demo Video
+https://user-images.githubusercontent.com/9793065/214650142-41712c4f-9ed9-4cfb-8ac8-1226d6b99084.mp4
+
