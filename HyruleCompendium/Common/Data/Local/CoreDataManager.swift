@@ -8,7 +8,16 @@
 import Foundation
 import CoreData
 
-final class CoreDataManager {
+protocol CoreDataProtocol {
+    func setAllData(data: All) throws
+    func removeAll() throws
+    
+    func getMonsters() throws -> [CoreDataMonster]
+    func getMaterials() throws -> [CoreDataMaterial]
+    func getEquipments() throws -> [CoreDataEquipment]
+}
+
+final class CoreDataManager: CoreDataProtocol {
     
     private let container: NSPersistentContainer!
     

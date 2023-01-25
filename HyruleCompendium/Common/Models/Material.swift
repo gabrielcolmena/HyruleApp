@@ -11,9 +11,9 @@ struct Material: Codable, Hashable {
     let id: Int
     var category: String
     var commonLocations: [String]?
-    var cookinEffect: String
+    var cookinEffect: String?
     var description: String
-    var heartsRecovered: CGFloat
+    var heartsRecovered: CGFloat?
     var image: String
     var name: String
     
@@ -26,7 +26,7 @@ extension Material: ListItemPresentable {
     var topLeftSymbol: String { "mappin" }
     var topLeftValue: String { "\(commonLocations?.count ?? 0)" }
     var topRightSymbol: String { "heart" }
-    var topRightValue: String { "+\(heartsRecovered)" }
+    var topRightValue: String { "+\(heartsRecovered ?? 0)" }
     var listItemUIValues: ListItemUIConfiguration {
         ListItemUIConfiguration(
             cellImageSize: 100,
@@ -48,7 +48,7 @@ extension Material: DetailPresentable {
     var horizontalItemsList: [DetailHorizontalItemsList] {
         [
             DetailHorizontalItemsList(title: Localizables.commonPlacesTitle, items: commonLocations ?? []),
-            DetailHorizontalItemsList(title: Localizables.cookignEffectTitle, items: [cookinEffect])
+            DetailHorizontalItemsList(title: Localizables.cookignEffectTitle, items: [cookinEffect ?? ""])
         ]
     }
 }

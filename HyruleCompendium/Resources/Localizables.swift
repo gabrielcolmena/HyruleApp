@@ -34,6 +34,9 @@ enum Localizables {
     static let dropsTitle = "DROPS_TITLE".localized()
     static let commonPlacesTitle = "COMMON_PLACES_TITLE".localized()
     static let cookignEffectTitle = "COOKING_EFFECT_TITLE".localized()
+    static let statsTitle = "STATS_TITLE".localized()
+    static let attackTitle = "ATTACK_TITLE".localized()
+    static let defenseTitle = "DEFENSE_TITLE".localized()
     
     //MARK: - Settigns
     static let removeAllSuccess = "REMOVE_ALL_SUCCESS".localized()

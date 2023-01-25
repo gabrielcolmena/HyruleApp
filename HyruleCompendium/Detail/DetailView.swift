@@ -19,49 +19,50 @@ struct DetailView: View {
     
     var body: some View {
         ScrollView {
-            VStack(alignment: .center) {
-                MainImage
-                    .padding([.vertical], 40)
-            }
-            VStack{
-                HStack {
-                    Text(viewModel.presentable.name.capitalized)
-                        .font(.title)
-                        .fontWeight(.semibold)
-
-                    Spacer()
-                    Text(viewModel.presentable.category.capitalized)
-                        .font(.caption)
-                        .fontWeight(.semibold)
-                        .foregroundColor(Color(UIColor.systemBackground))
-                        .padding(configuration.spacing)
-                        .padding([.horizontal], configuration.spacing)
-                        .background(Color.accentColor)
-                        .cornerRadius(configuration.cornerRadius)
-                        
+            VStack {
+                VStack(alignment: .center) {
+                    MainImage
                 }
-                
-                Divider()
-                    .padding([.vertical])
-                
-                Text(viewModel.presentable.description.capitalized)
-                    .font(.caption)
-                    .fontWeight(.light)
-                
-                Divider()
-                    .padding([.vertical])
-                
-                ForEach(viewModel.presentable.horizontalItemsList, id: \.self) { horizontalItem in
-                    HorizontalItems(title: horizontalItem.title, items: horizontalItem.items)
+                VStack{
+                    HStack {
+                        Text(viewModel.presentable.name.capitalized)
+                            .font(.title)
+                            .fontWeight(.semibold)
                         
+                        Spacer()
+                        Text(viewModel.presentable.category.capitalized)
+                            .font(.caption)
+                            .fontWeight(.semibold)
+                            .foregroundColor(Color(UIColor.systemBackground))
+                            .padding(configuration.spacing)
+                            .padding([.horizontal], configuration.spacing)
+                            .background(Color.accentColor)
+                            .cornerRadius(configuration.cornerRadius)
+                        
+                    }
+                    
                     Divider()
                         .padding([.vertical])
+                    
+                    Text(viewModel.presentable.description.capitalized)
+                        .font(.caption)
+                        .fontWeight(.light)
+                    
+                    Divider()
+                        .padding([.vertical])
+                    
+                    ForEach(viewModel.presentable.horizontalItemsList, id: \.self) { horizontalItem in
+                        HorizontalItems(title: horizontalItem.title, items: horizontalItem.items)
+                        
+                        Divider()
+                            .padding([.vertical])
+                    }
                 }
-            }
-            .padding()
-            .background(ItemsBackground)
-            .padding([.horizontal])
-
+                .padding()
+                .background(ItemsBackground)
+                .padding([.horizontal])
+                .offset(x: 0, y: configuration.overlapOffset)
+                }
             }
         .navigationBarTitleDisplayMode(.inline)
     }

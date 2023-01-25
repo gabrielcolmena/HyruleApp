@@ -7,6 +7,6 @@
 
 import Foundation
 
-struct Response<T: Codable>: Codable {
+struct ServerResponse<T: Codable>: Codable {
     var data: T
 }

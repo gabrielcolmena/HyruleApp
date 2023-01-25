@@ -1,0 +1,92 @@
+{
+  "data": {
+    "equipment": [
+      {
+        "attack": 25,
+        "category": "equipment",
+        "common_locations": [
+          "West Necluda",
+          "Hebra Mountains"
+        ],
+        "defense": 0,
+        "description": "This massive boomerang requires two hands. Originally used for hunting, it was modified for use as a weapon. The blades on the inner curves make it a bit trick to wield.",
+        "id": 253,
+        "image": "https://botw-compendium.herokuapp.com/api/v2/entry/giant_boomerang/image",
+        "name": "giant boomerang"
+      },
+      {
+        "attack": null,
+        "category": "equipment",
+        "common_locations": [
+          "Hyrule Field",
+          "East Necluda"
+        ],
+        "defense": null,
+        "description": "A powerful arrow designed to destroy monsters. The explosive powder packed into the tip ignites on impact, dealing massive damage to anything caught in the blast.",
+        "id": 352,
+        "image": "https://botw-compendium.herokuapp.com/api/v2/entry/bomb_arrow/image",
+        "name": "bomb arrow"
+      },
+      {
+        "attack": 14,
+        "category": "equipment",
+        "common_locations": [
+          "Hyrule Field",
+          "Faron Grasslands"
+        ],
+        "defense": 0,
+        "description": "A bow designed for armed conflict. Inflicts more damage than a civilian bow, but it will still burn if it touches fire.",
+        "id": 326,
+        "image": "https://botw-compendium.herokuapp.com/api/v2/entry/soldier's_bow/image",
+        "name": "soldier's bow"
+      }
+    ],
+    "materials": [
+      {
+        "category": "materials",
+        "common_locations": [
+          "West Necluda",
+          "Lanayru Great Spring"
+        ],
+        "cooking_effect": "stealth up",
+        "description": "A plant that grows in the quieter areas of Hyrule. At night, it gives off a soft glow. Cook with it to increase your stealth.",
+        "hearts_recovered": 0,
+        "id": 198,
+        "image": "https://botw-compendium.herokuapp.com/api/v2/entry/blue_nightshade/image",
+        "name": "blue nightshade"
+      },
+      {
+        "category": "materials",
+        "common_locations": [
+          "Gerudo Highlands",
+          "Hyrule Ridge"
+        ],
+        "cooking_effect": "speed up",
+        "description": "A mushroom that can grow almost anywhere but prefers ceilings and sheer cliffs. Cook it before eating to temporarily increase your movement speed.",
+        "hearts_recovered": 0.5,
+        "id": 182,
+        "image": "https://botw-compendium.herokuapp.com/api/v2/entry/rushroom/image",
+        "name": "rushroom"
+      }
+    ],
+    "monsters": [
+      {
+        "category": "monsters",
+        "common_locations": [
+          "Hebra Mountains",
+          "Gerudo Highlands"
+        ],
+        "description": "This enormous monster is naturally camouflaged as a frozen rock formation. Neither sword nor arrow can pierce its frigid form. Merely touching its frosty body can leave you with severe frostbite, but you may be able to scale it if you use something to thaw its icy exterior.",
+        "drops": [
+          "flint",
+          "opal",
+          "sapphire",
+          "diamond"
+        ],
+        "id": 142,
+        "image": "https://botw-compendium.herokuapp.com/api/v2/entry/frost_talus/image",
+        "name": "frost talus"
+      }
+    ]
+  }
+}

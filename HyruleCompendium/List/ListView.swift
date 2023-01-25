@@ -9,14 +9,14 @@ import SwiftUI
 
 struct ListView: View {
 
-    @StateObject private var viewModel: ListViewModel
+    @StateObject var viewModel: ListViewModel
     
     @State var selectedItem: DetailPresentable?
     @State private var showSettings = false
     @State private var showDetail = false
     @State private var searchText = ""
     
-    init(dataManager: DataManager) {
+    init(dataManager: DataProtocol) {
         _viewModel = StateObject(wrappedValue: ListViewModel(dataManager: dataManager))
     }
     
@@ -27,10 +27,10 @@ struct ListView: View {
                     SkeletonLoaderView()
                     SkeletonLoaderView()
                 } else if viewModel.hasContent {
-                    if viewModel.monsters.count > 0 {
+                    if viewModel.mutableMonsters.count > 0 {
                         //MARK: - Monsters
                         Section(header: Text(viewModel.monstersTitle)) {
-                            ForEach(viewModel.monsters, id: \.self) { monster in
+                            ForEach(viewModel.mutableMonsters, id: \.self) { monster in
                                 ListItemView(presentable: monster)
                                 .listRowSeparator(.hidden)
                                 .background(.clear)
@@ -42,10 +42,10 @@ struct ListView: View {
                         }
                     }
                     
-                    if viewModel.equipments.count > 0 {
+                    if viewModel.mutableEquipments.count > 0 {
                         //MARK: - Equipment
                         Section(header: Text(viewModel.equipmentTitle)) {
-                            ForEach(viewModel.equipments, id: \.self) { equipment in
+                            ForEach(viewModel.mutableEquipments, id: \.self) { equipment in
                                 ListItemView(presentable: equipment)
                                 .listRowSeparator(.hidden)
                                 .background(.clear)
@@ -57,10 +57,10 @@ struct ListView: View {
                         }
                     }
                     
-                    if viewModel.materials.count > 0 {
+                    if viewModel.mutableMaterials.count > 0 {
                         //MARK: - Materials
                         Section(header: Text(viewModel.materialsTitle)) {
-                            ForEach(viewModel.materials, id: \.self) { material in
+                            ForEach(viewModel.mutableMaterials, id: \.self) { material in
                                 ListItemView(presentable: material)
                                 .listRowSeparator(.hidden)
                                 .background(.clear)
@@ -71,7 +71,7 @@ struct ListView: View {
                             }
                         }
                     }
-                } else {
+                } else if (!viewModel.hasContent) {
                     EmptyContent
                 }
             }

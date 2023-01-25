@@ -42,15 +42,15 @@ extension Monster: DetailPresentable {
     
     var detailUIValues: DetailUIConfiguration {
         DetailUIConfiguration(
-            mainImageSize: 180,
+            mainImageSize: 240,
             cornerRadius: 10,
             spacing: 4
         )
     }
     var horizontalItemsList: [DetailHorizontalItemsList] {
         [
-            DetailHorizontalItemsList(title: Localizables.dropsTitle, items: drops ?? []),
-            DetailHorizontalItemsList(title: Localizables.commonPlacesTitle, items: commonLocations ?? [])
+            DetailHorizontalItemsList(title: Localizables.commonPlacesTitle, items: commonLocations ?? []),
+            DetailHorizontalItemsList(title: Localizables.dropsTitle, items: drops ?? [])
         ]
     }
 }

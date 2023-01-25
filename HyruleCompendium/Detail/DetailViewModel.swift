@@ -21,6 +21,9 @@ struct DetailUIConfiguration {
     var mainImageSize: CGFloat
     var cornerRadius: CGFloat
     var spacing: CGFloat
+    
+    //default values
+    var overlapOffset: CGFloat = -18
 }
 
 struct DetailHorizontalItemsList: Hashable {

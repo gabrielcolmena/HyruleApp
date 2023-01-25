@@ -27,12 +27,15 @@
 "MONSTERS_TITLE" = "Monsters";
 "EQUIPMENT_TITLE" = "Equipment";
 "MATERIALS_TITLE" = "Materials";
-"NO_CONTENT_AVAILABLE" = "No content available";
+"NO_CONTENT_AVAILABLE" = "No available results, please try again";
 
 // MARK: - DetailView
 "DROPS_TITLE" = "Drops";
 "COMMON_PLACES_TITLE" = "Common places";
 "COOKING_EFFECT_TITLE" = "Cooking effect";
+"STATS_TITLE" = "Stats";
+"ATTACK_TITLE" = "Attack";
+"DEFENSE_TITLE"=  "Defense";
 
 //MARK: - Settings
 "DATA_TITLE" = "Data";

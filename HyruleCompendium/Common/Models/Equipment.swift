@@ -49,7 +49,10 @@ extension Equipment: DetailPresentable {
     
     var horizontalItemsList: [DetailHorizontalItemsList] {
         [
-            DetailHorizontalItemsList(title: Localizables.commonPlacesTitle, items: commonLocations ?? [])
+            DetailHorizontalItemsList(title: Localizables.commonPlacesTitle, items: commonLocations ?? []),
+            DetailHorizontalItemsList(title: Localizables.statsTitle, items: [
+                "\(Localizables.attackTitle): \(attack ?? 0)", "\(Localizables.defenseTitle): \(defense ?? 0)"
+            ])
         ]
     }
 }

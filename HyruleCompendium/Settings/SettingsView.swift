@@ -13,7 +13,7 @@ struct SettingsView: View {
     @State private var toast: Toast? = nil
     @Environment(\.dismiss) var dismiss
     
-    init(dataManager: DataManager) {
+    init(dataManager: DataProtocol) {
         _viewModel = StateObject(wrappedValue: SettingsViewModel(dataManager: dataManager))
     }
     

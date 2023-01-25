@@ -11,9 +11,9 @@ import Foundation
 final class SettingsViewModel: ObservableObject {
     
     @Published private(set) var error: Error?
-    private let dataManager: DataManager
+    private let dataManager: DataProtocol
     
-    init(dataManager: DataManager) {
+    init(dataManager: DataProtocol) {
         self.dataManager = dataManager
     }
     

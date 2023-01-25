@@ -9,6 +9,29 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>HyruleCompendiumTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2BF70B31297A214500B7263C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2BF70B46297A214700B7263C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2BF70B50297A214700B7263C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

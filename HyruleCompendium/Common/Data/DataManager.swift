@@ -7,13 +7,20 @@
 
 import Foundation
 
-final class DataManager {
+protocol DataProtocol {
+    var coreDataManager: CoreDataProtocol {get set}
+    var networkManager: NetworkProtocol {get set}
     
-    private var coreDataManager: CoreDataManager
-    private var networkManager: NetworkManager
-    private var dataError: DataError?
+    func getAll() async throws -> All
+    func removeAll() throws
+}
+
+final class DataManager: DataProtocol {
     
-    init(coreDataManager: CoreDataManager, networkManager: NetworkManager) {
+    internal var coreDataManager: CoreDataProtocol
+    internal var networkManager: NetworkProtocol
+    
+    init(coreDataManager: CoreDataProtocol, networkManager: NetworkProtocol) {
         self.coreDataManager = coreDataManager
         self.networkManager = networkManager
     }

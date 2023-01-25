@@ -7,7 +7,11 @@
 
 import Foundation
 
-final class NetworkManager {
+protocol NetworkProtocol {
+    func request<T: Codable>(session: URLSession, _ endpoint: Endpoint, type: T.Type) async throws -> T
+}
+
+final class NetworkManager: NetworkProtocol {
     
     func request<T: Codable>(session: URLSession = .shared, _ endpoint: Endpoint, type: T.Type) async throws -> T {
         
@@ -27,14 +31,12 @@ final class NetworkManager {
         
         let decoder = JSONDecoder()
         do{
-            let res = try decoder.decode(Response<T>.self, from: data)
+            let res = try decoder.decode(ServerResponse<T>.self, from: data)
             return res.data
         } catch {
             debugPrint(error)
             throw DataError.custom(error: error)
         }
-        
-//        return nil
     }
 }
 

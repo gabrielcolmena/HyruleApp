@@ -12,6 +12,12 @@
 		2B19B3922980457500E6AF56 /* All.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19B3912980457500E6AF56 /* All.swift */; };
 		2B19B394298050A500E6AF56 /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19B393298050A500E6AF56 /* Equipment.swift */; };
 		2B19B3962980D57D00E6AF56 /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19B3952980D57D00E6AF56 /* Material.swift */; };
+		2B19B39B29816B4E00E6AF56 /* NetworkManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19B39A29816B4E00E6AF56 /* NetworkManagerMock.swift */; };
+		2B19B3A029816BCB00E6AF56 /* All.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B19B39F29816BCB00E6AF56 /* All.json */; };
+		2B19B3A529817F0600E6AF56 /* JSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19B3A429817F0600E6AF56 /* JSONMapper.swift */; };
+		2B19B3A9298180B000E6AF56 /* CoreDataManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19B3A8298180B000E6AF56 /* CoreDataManagerMock.swift */; };
+		2B19B3AB298180C400E6AF56 /* DataManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19B3AA298180C400E6AF56 /* DataManagerMock.swift */; };
+		2B19B3AF298184AB00E6AF56 /* ListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B19B3AE298184AB00E6AF56 /* ListViewModelTests.swift */; };
 		2B566638297DDB3000BD263E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B566637297DDB3000BD263E /* DataManager.swift */; };
 		2B56663A297E272200BD263E /* DataMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B566639297E272200BD263E /* DataMapper.swift */; };
 		2B56663D297E322700BD263E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B56663C297E322700BD263E /* SettingsView.swift */; };
@@ -28,7 +34,7 @@
 		2BF70B3A297A214600B7263C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF70B39297A214600B7263C /* Assets.xcassets */; };
 		2BF70B3D297A214600B7263C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF70B3C297A214600B7263C /* Preview Assets.xcassets */; };
 		2BF70B42297A214600B7263C /* HyruleCompendium.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B40297A214600B7263C /* HyruleCompendium.xcdatamodeld */; };
-		2BF70B4C297A214700B7263C /* HyruleCompendiumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B4B297A214700B7263C /* HyruleCompendiumTests.swift */; };
+		2BF70B4C297A214700B7263C /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B4B297A214700B7263C /* NetworkManagerTests.swift */; };
 		2BF70B56297A214700B7263C /* HyruleCompendiumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B55297A214700B7263C /* HyruleCompendiumUITests.swift */; };
 		2BF70B58297A214700B7263C /* HyruleCompendiumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B57297A214700B7263C /* HyruleCompendiumUITestsLaunchTests.swift */; };
 		2BF70B65297A2BF200B7263C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B64297A2BF200B7263C /* ListView.swift */; };
@@ -39,7 +45,7 @@
 		2BF70B74297A3B8D00B7263C /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B73297A3B8D00B7263C /* Endpoints.swift */; };
 		2BF70B76297B5D9C00B7263C /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B75297B5D9C00B7263C /* ListItemView.swift */; };
 		2BF70B7C297CA31B00B7263C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B7B297CA31B00B7263C /* CoreDataManager.swift */; };
-		2BF70B7E297CA44400B7263C /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B7D297CA44400B7263C /* Response.swift */; };
+		2BF70B7E297CA44400B7263C /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF70B7D297CA44400B7263C /* ServerResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +71,12 @@
 		2B19B3912980457500E6AF56 /* All.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = All.swift; sourceTree = "<group>"; };
 		2B19B393298050A500E6AF56 /* Equipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment.swift; sourceTree = "<group>"; };
 		2B19B3952980D57D00E6AF56 /* Material.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Material.swift; sourceTree = "<group>"; };
+		2B19B39A29816B4E00E6AF56 /* NetworkManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerMock.swift; sourceTree = "<group>"; };
+		2B19B39F29816BCB00E6AF56 /* All.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = All.json; sourceTree = "<group>"; };
+		2B19B3A429817F0600E6AF56 /* JSONMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONMapper.swift; sourceTree = "<group>"; };
+		2B19B3A8298180B000E6AF56 /* CoreDataManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManagerMock.swift; sourceTree = "<group>"; };
+		2B19B3AA298180C400E6AF56 /* DataManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerMock.swift; sourceTree = "<group>"; };
+		2B19B3AE298184AB00E6AF56 /* ListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelTests.swift; sourceTree = "<group>"; };
 		2B566637297DDB3000BD263E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		2B566639297E272200BD263E /* DataMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMapper.swift; sourceTree = "<group>"; };
 		2B56663C297E322700BD263E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -83,7 +95,7 @@
 		2BF70B3C297A214600B7263C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2BF70B41297A214600B7263C /* HyruleCompendium.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HyruleCompendium.xcdatamodel; sourceTree = "<group>"; };
 		2BF70B47297A214700B7263C /* HyruleCompendiumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyruleCompendiumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BF70B4B297A214700B7263C /* HyruleCompendiumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyruleCompendiumTests.swift; sourceTree = "<group>"; };
+		2BF70B4B297A214700B7263C /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
 		2BF70B51297A214700B7263C /* HyruleCompendiumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyruleCompendiumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF70B55297A214700B7263C /* HyruleCompendiumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyruleCompendiumUITests.swift; sourceTree = "<group>"; };
 		2BF70B57297A214700B7263C /* HyruleCompendiumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyruleCompendiumUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -95,7 +107,7 @@
 		2BF70B73297A3B8D00B7263C /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		2BF70B75297B5D9C00B7263C /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
 		2BF70B7B297CA31B00B7263C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
-		2BF70B7D297CA44400B7263C /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		2BF70B7D297CA44400B7263C /* ServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +144,33 @@
 			path = ListItem;
 			sourceTree = "<group>";
 		};
+		2B19B39929816B2100E6AF56 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				2B19B3A329817EFA00E6AF56 /* Helper */,
+				2B19B39A29816B4E00E6AF56 /* NetworkManagerMock.swift */,
+				2B19B3A8298180B000E6AF56 /* CoreDataManagerMock.swift */,
+				2B19B3AA298180C400E6AF56 /* DataManagerMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		2B19B39E29816B9900E6AF56 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				2B19B39F29816BCB00E6AF56 /* All.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		2B19B3A329817EFA00E6AF56 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2B19B3A429817F0600E6AF56 /* JSONMapper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		2B56663B297E321700BD263E /* Settings */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +193,7 @@
 		2B566641297ED69300BD263E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2B19B39E29816B9900E6AF56 /* JSON */,
 				2B566642297ED69D00BD263E /* Theme.swift */,
 				2B56664A297F44AE00BD263E /* Symbols.swift */,
 				2B56664C297F457900BD263E /* Localizable.strings */,
@@ -193,6 +233,7 @@
 		2BF70B34297A214500B7263C /* HyruleCompendium */ = {
 			isa = PBXGroup;
 			children = (
+				2B19B39929816B2100E6AF56 /* Mocks */,
 				2BF70B6C297A2C7600B7263C /* Common */,
 				2BF70B67297A2C0100B7263C /* Detail */,
 				2BF70B66297A2BFC00B7263C /* List */,
@@ -218,7 +259,8 @@
 		2BF70B4A297A214700B7263C /* HyruleCompendiumTests */ = {
 			isa = PBXGroup;
 			children = (
-				2BF70B4B297A214700B7263C /* HyruleCompendiumTests.swift */,
+				2BF70B4B297A214700B7263C /* NetworkManagerTests.swift */,
+				2B19B3AE298184AB00E6AF56 /* ListViewModelTests.swift */,
 			);
 			path = HyruleCompendiumTests;
 			sourceTree = "<group>";
@@ -266,7 +308,7 @@
 			children = (
 				2B19B3912980457500E6AF56 /* All.swift */,
 				2BF70B6E297A2C8600B7263C /* Monster.swift */,
-				2BF70B7D297CA44400B7263C /* Response.swift */,
+				2BF70B7D297CA44400B7263C /* ServerResponse.swift */,
 				2B19B393298050A500E6AF56 /* Equipment.swift */,
 				2B19B3952980D57D00E6AF56 /* Material.swift */,
 			);
@@ -406,6 +448,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BF70B3D297A214600B7263C /* Preview Assets.xcassets in Resources */,
+				2B19B3A029816BCB00E6AF56 /* All.json in Resources */,
 				2B56664D297F457900BD263E /* Localizable.strings in Resources */,
 				2BF70B3A297A214600B7263C /* Assets.xcassets in Resources */,
 			);
@@ -433,19 +476,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B56663A297E272200BD263E /* DataMapper.swift in Sources */,
+				2B19B3AB298180C400E6AF56 /* DataManagerMock.swift in Sources */,
 				2B19B390298043CD00E6AF56 /* ListItemViewModel.swift in Sources */,
 				2BF70B69297A2C0E00B7263C /* DetailView.swift in Sources */,
 				2BF70B6B297A2C6100B7263C /* ListViewModel.swift in Sources */,
 				2BF70B74297A3B8D00B7263C /* Endpoints.swift in Sources */,
-				2BF70B7E297CA44400B7263C /* Response.swift in Sources */,
+				2BF70B7E297CA44400B7263C /* ServerResponse.swift in Sources */,
 				2B19B394298050A500E6AF56 /* Equipment.swift in Sources */,
 				2BF70B6F297A2C8600B7263C /* Monster.swift in Sources */,
 				2BF70B76297B5D9C00B7263C /* ListItemView.swift in Sources */,
+				2B19B39B29816B4E00E6AF56 /* NetworkManagerMock.swift in Sources */,
 				2B566645297EDE0900BD263E /* BackgroundView.swift in Sources */,
 				2B566640297ED60A00BD263E /* Toast.swift in Sources */,
 				2B56664B297F44AF00BD263E /* Symbols.swift in Sources */,
 				2B56664F297F47BF00BD263E /* Localizables.swift in Sources */,
 				2B19B38D2980435800E6AF56 /* DetailViewModel.swift in Sources */,
+				2B19B3A529817F0600E6AF56 /* JSONMapper.swift in Sources */,
+				2B19B3A9298180B000E6AF56 /* CoreDataManagerMock.swift in Sources */,
 				2B19B3922980457500E6AF56 /* All.swift in Sources */,
 				2B19B3962980D57D00E6AF56 /* Material.swift in Sources */,
 				2B56663D297E322700BD263E /* SettingsView.swift in Sources */,
@@ -466,7 +513,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BF70B4C297A214700B7263C /* HyruleCompendiumTests.swift in Sources */,
+				2B19B3AF298184AB00E6AF56 /* ListViewModelTests.swift in Sources */,
+				2BF70B4C297A214700B7263C /* NetworkManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
